@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheShield AI | Proactive Women Safety</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">SheShield <span>AI</span></div>
+
+
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="gradient-text">Safety Beyond the Button.</h1>
+            <p>Proactive AI threat detection that reacts when you can't. Smart SOS, voice triggers, and real-time
+                protection powered by Edge AI.</p>
+            <div class="hero-btns">
+                <button class="btn-primary">Get SheShield</button>
+                <button class="btn-secondary">Watch Demo</button>
+            </div>
+        </div>
+    </header>
+
+    
+
+
+
+
+
+    <section id="features" class="section">
+        <h2 class="section-title">Innovation Features</h2>
+        <div class="features-grid">
+
+            <div class="feature-card glass">
+                <div class="icon">⌚</div>
+                <h4>Wearable Integration</h4>
+                <p>Bluetooth SOS trigger for discreet, one-tap activation.</p>
+                <button id="wearable-sos-trigger" class="btn-primary small-btn">Simulate Wearable</button>
+            </div>
+            <div class="feature-card glass">
+                <div class="icon">🗣️</div>
+                <h4>Voice-Activated SOS</h4>
+                <p>Triggers even when the phone is locked using custom high-stress keywords.</p>
+                <button id="voice-sos-trigger" class="btn-secondary small-btn">Start Voice AI</button>
+            </div>
+            <div class="feature-card glass">
+                <div class="icon">📍</div>
+                <h4>Safe Geofencing</h4>
+                <p>Smart alerts when entering unsafe zones or taking unknown routes.</p>
+                <button id="unsafe-zone-trigger" class="btn-primary small-btn">Detect Unsafe Zone</button>
+            </div>
+            <div class="feature-card glass">
+                <div class="icon">🛣️</div>
+                <h4>Safe Route AI</h4>
+                <p>Predicts and suggests paths based on safety scores, not just distance.</p>
+                <button id="compare-routes-trigger" class="btn-secondary small-btn">AI Route GPS Guide</button>
+            </div>
+            <div class="feature-card glass">
+                <div class="icon">📹</div>
+                <h4>Evidence Capture</h4>
+                <p>Automatic encrypted cloud recording of audio/video during alerts.</p>
+                <button id="evidence-capture-trigger" class="btn-primary small-btn">Manual Capture</button>
+                <video id="evidence-video" style="display:none; width:100%; aspect-ratio:16/9; background:#000; border-radius:12px; margin-top:1rem;" muted></video>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="section">
+        <h2 class="section-title">Guardian Dashboard</h2>
+        <div class="demo-flex">
+            <div class="demo-card glass">
+                <div id="guardian-status">
+                    <div class="dot gray-dot"></div>
+                    <h4>GUARDIAN MODE: INACTIVE</h4>
+                    <p>Status: Privacy Mode</p>
+                </div>
+                <div class="guardian-controls">
+                    <button id="guardian-on-trigger" class="btn-primary">Turn ON</button>
+                    <button id="guardian-off-trigger" class="btn-secondary">Turn OFF</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tabs-demo" class="section">
+        <div class="tabs-container glass">
+            <div class="tab-header">
+                <button class="tab-btn active" data-tab="live">Live Monitor</button>
+                <button class="tab-btn" data-tab="logs">History Logs</button>
+            </div>
+            <div class="tab-content active" id="live">
+                <p>Real-time telemetry and audio analysis overview.</p>
+            </div>
+            <div class="tab-content" id="logs">
+                <p>Encrypted logs of previous potential threat events.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="logo">SheShield AI</div>
+        <p>A Winning Hackathon Concept for Women's Safety.</p>
+        <p class="copyright">© 2026 SheShield AI Project. All rights reserved.</p>
+    </footer>
+
+    <div id="toast-container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
